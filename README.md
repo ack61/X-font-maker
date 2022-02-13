@@ -15,7 +15,7 @@ X　Window System 上で動くフォント作成・表示が可能なプログ�
 ## 作ったフォントの使い方
 - デモを見るには、fontMakerディレクトリ内で、以下のコマンドでコンパイルし，a.outを実行します。<br>
 `cc fontTest.c Flib/FFont.c Flib/FillMask.c -I /usr/include/ -L /usr/lib/ -l X11 -lm`
-- 「foo ber」が表示されて、3つの画面が順番に表示されたら正常に動作しています。
+- 「foo bar」が表示されて、3つの画面が順番に表示されたら正常に動作しています。
 - `Flib/FFont.h`と`Flib/FillMask.h`をインクルードして(fontTest.cのように)、FLoadFontで読み込むことで作ったフォントで描画できるようになります。
 
 ## 実行環境 (仮想マシン)
